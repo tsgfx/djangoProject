@@ -1,0 +1,1 @@
+创建app:`python manage.py startapp app_name`

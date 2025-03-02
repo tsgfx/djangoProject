@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>号码列表</title>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>号码</th>
+                <th>姓名</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for query in query_set %}
+            <tr>
+                <td>{{ query.id }}</td>
+                <td>{{ query.phone }}</td>
+                <td>{{ query.name }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</head>
+<body>
+
+</body>
+</html>
