@@ -4,16 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8150a34-afe9-40d7-b56b-55418cf7d5a6" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command_notebook.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/phone_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/user_list.html" afterDir="false" />
+    <list default="true" id="c8150a34-afe9-40d7-b56b-55418cf7d5a6" name="更改" comment="Day1_view_and_templete">
+      <change afterPath="$PROJECT_DIR$/demo/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command_notebook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/phone_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/user_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -33,6 +43,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tsgfx&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/tsgfx/djangoProject.git&quot;,
+    &quot;accountId&quot;: &quot;092ee00d-4cee-41f0-a54d-3623e90c2bad&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -47,26 +69,67 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Django 服务器.djangoProject.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_data.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/wangdao_python_short_class/djangoProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/wangdao_python_short_class/djangoProject/cookie_demo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\wangdao_python_short_class\djangoProject\cookie_demo" />
+      <recent name="G:\wangdao_python_short_class\djangoProject\department" />
+      <recent name="G:\wangdao_python_short_class\djangoProject\web" />
+      <recent name="G:\wangdao_python_short_class\djangoProject\demo\static" />
+      <recent name="G:\wangdao_python_short_class\djangoProject\web\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\wangdao_python_short_class\djangoProject" />
+      <recent name="G:\wangdao_python_short_class\djangoProject\djangoProject" />
+      <recent name="G:\wangdao_python_short_class\djangoProject\demo\template" />
       <recent name="E:\wangdao_python_short_class\djangoProject\web" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django 服务器.djangoProject">
+    <configuration name="add_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (DeepLearning)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/add_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject" />
       <option name="ENV_FILES" value="" />
@@ -93,6 +156,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.add_data" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -113,8 +181,25 @@
       <workItem from="1739787322646" duration="3654000" />
       <workItem from="1739847054517" duration="141000" />
       <workItem from="1740794641670" duration="2669000" />
-      <workItem from="1740893045067" duration="3953000" />
+      <workItem from="1740893045067" duration="10008000" />
+      <workItem from="1741059045651" duration="4268000" />
+      <workItem from="1741069063231" duration="5553000" />
+      <workItem from="1741590773426" duration="2484000" />
+      <workItem from="1741594661920" duration="3560000" />
+      <workItem from="1741610615095" duration="6022000" />
+      <workItem from="1741624905314" duration="619000" />
+      <workItem from="1741625648912" duration="2632000" />
+      <workItem from="1741664335695" duration="13308000" />
     </task>
+    <task id="LOCAL-00001" summary="Day1_view_and_templete">
+      <option name="closed" value="true" />
+      <created>1740899082790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740899082790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,5 +215,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day1_view_and_templete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day1_view_and_templete" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoProject$add_data.coverage" NAME="add_data 覆盖结果" MODIFIED="1741597218150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
   </component>
 </project>

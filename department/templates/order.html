@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" novalidate>
+    {% csrf_token %}
+    <p>{{ form.order_name }}<span style="color: red">{{ form.order_name.errors.0 }}</span></p>
+    <p>{{ form.order_address }}<span style="color: red">{{ form.order_address.errors.0 }}</span></p>
+    <p>{{ form.order_choices }}<span style="color: red">{{ form.order_choices.errors.0 }}</span></p>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

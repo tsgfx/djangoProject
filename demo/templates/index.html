@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+</head>
+<body>
+<h1>欢迎来到我的博客</h1>
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+<h1>号码列表</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>号码</th>
+                <th>姓名</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for query in query_set %}
+            <tr>
+                <td>{{ query.id }}</td>
+                <td>{{ query.phone }}</td>
+                <td>{{ query.name }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+<script src="{% static 'jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'bootstrap-3.4.1-dist/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container">
+    <div style="margin-top: 10px;">
+        <a href="/add_department/" class="btn btn-primary">添加部门</a>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>标题</th>
+            <th>人数</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for department in department_list %}
+            <tr>
+                <td>{{ department.id }}</td>
+                <td>{{ department.title }}</td>
+                <td>{{ department.count }}</td>
+                <td>
+                    <a href="/delete_department/?id={{ department.id }}" class="btn btn-danger btn-xs">删除</a>
+                    <a href="/edit_department/?id={{ department.id }}" class="btn btn-success btn-xs">编辑</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

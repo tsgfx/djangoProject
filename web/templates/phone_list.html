@@ -1,9 +1,17 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>号码列表</title>
-    <table>
+{#    <link rel="stylesheet" href="/static/bootstrap-3.4.1-dist/css/bootstrap.min.css">#}
+    <link rel="stylesheet" href="{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+</head >
+
+<body>
+<div class="container">
+    <h1>号码列表</h1>
+    <table class="table table-bordered">
         <thead>
             <tr>
                 <th>ID</th>
@@ -21,8 +29,9 @@
         {% endfor %}
         </tbody>
     </table>
-</head>
-<body>
 
+    <script src="{% static 'jquery-3.6.0.min.js'%}"></script>
+    <script src="{% static 'bootstrap-3.4.1-dist/js/bootstrap.min.js'%}"></script>
+</div>
 </body>
 </html>

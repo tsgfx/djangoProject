@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">编辑部门</div>
+        <div class="panel-body">
+            <form method="post" action="/edit_department/?id={{ current_department.id }}">
+                {% csrf_token %}
+                <input type="text" name="title" value="{{ current_department.title }}" placeholder="部门名称">
+                <input type="text" name="count" value="{{ current_department.count }}" placeholder="人数">
+                <input type="submit" value="change">
+            </form>
+        </div>
+    </div>
+
+</div>
+</form>
+</body>
+</html>

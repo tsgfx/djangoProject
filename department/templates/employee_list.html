@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block content %}
+        <div style="margin-top: 10px;">
+        <a href="/add_employee/" class="btn btn-primary">添加员工</a>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>薪资</th>
+            <th>部门ID</th>
+            <th>部门</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for employee in employee_list %}
+            <tr>
+                <td>{{ employee.id }}</td>
+                <td>{{ employee.name }}</td>
+                <td>{{ employee.salary }}</td>
+                <td>{{ employee.department.id }}</td>
+                <td>{{ employee.department.title }}</td>
+                <td>
+                    <a href="/delete_employee/?id={{ employee.id }}" class="btn btn-danger btn-xs">删除</a>
+                    <a href="/edit_employee/?id={{ employee.id }}" class="btn btn-success btn-xs">编辑</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

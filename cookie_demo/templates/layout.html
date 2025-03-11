@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% block css %}{% endblock %}
+</head>
+<body>
+<div style="text-align: center; background-color: blue; padding: 20px;">.ff.</div>
+<div class="container">{% block content %}{% endblock %}</div>
+{% block js %}{% endblock %}
+</body>
+</html>
